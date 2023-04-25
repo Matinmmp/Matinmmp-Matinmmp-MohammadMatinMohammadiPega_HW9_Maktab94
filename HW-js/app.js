@@ -96,3 +96,24 @@
 
 // f1000("test"); // shows "test" after 1000ms
 // f1500("test"); // shows "test" after 1500ms
+
+
+
+// 5
+
+/* .. your code for inBetween and inArray */
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// const inArray = arr => item => arr.includes(item);
+
+// const inBetween = (a, b) => item => item >= a && item <= b;
+
+// alert(arr.filter(inBetween(3, 6))); // 3,4,5,6
+// alert(arr.filter(inArray([1, 2, 10]))); // 1,2
+
+
+
+
+
+
+
