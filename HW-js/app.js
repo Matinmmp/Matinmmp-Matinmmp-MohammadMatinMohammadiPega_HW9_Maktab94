@@ -115,5 +115,17 @@
 
 
 
+// 6
+// function sum(a) {
+//     return function (b){
+//         return a + b;
+//     }    
+// }
+
+// console.log(sum(1)(2));
+// console.log(sum(1)(6));
 
 
+// const sum = a => b => a + b;
+// console.log(sum(1)(2));
+// console.log(sum(1)(6));
