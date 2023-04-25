@@ -43,3 +43,34 @@
 // PassbyReference({...obj});
 
 // console.log(`After calling Pass By Reference Function -> a = ${obj.a} b = ${obj.b}`);
+
+
+
+
+// 3
+
+
+// function spy(func) {
+//     function wrapper() {
+//         wrapper.calls.push(Array.prototype.slice.call(arguments));
+//         return func.apply(this, arguments);
+//     }
+//     wrapper.calls = [];
+//     return wrapper;
+// }
+
+// Usage:
+// function work(a, b) {
+//     alert(a + b); // arbitrary function
+// }
+
+// work = spy(work);
+
+// work(1, 2); // 3
+// work(4, 5); // 9
+
+// for (let args of work.calls) {
+//     alert('call:' + args.join());
+// }
+// "call:1,2"
+// "call:4,5"
