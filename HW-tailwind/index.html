@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body  >
+    <main class="flex relative">
+
+        <section id="menu"
+            class=" transition-[left]  left-[-15rem]  w-[15rem] fixed top-0 bottom-0 lg:left-0 lg:fixed lg:w-2/12 
+             bg-white   border-[1px] border-gray-400 ">
+            <div class="p-6 flex flex-col h-full">
+                <span class="font-bold mb-8"><i class="bi bi-justify me-4 text-gray-400 text-lg"></i>.Studio</span>
+                <ul class="text-gray-500">
+
+                    <li class="py-5">
+                        <i class="bi bi-house me-4 text-gray-400 text-lg"></i>
+                        <span>Overview</span>
+                    </li>
+
+                    <li class="py-5">
+                        <i class="bi bi-bar-chart me-4 text-gray-400 text-lg"></i>
+                        <span>Stats</span>
+                    </li>
+
+                    <li class="text-black py-5">
+                        <i class="bi bi-folder2-open me-4 text-black text-lg"></i>
+                        <span>Projects</span>
+                    </li>
+
+                    <li class="py-5">
+                        <i class="bi bi-chat-left-text me-4 text-gray-400 text-lg"></i><span>Chats</span>
+                        <span class="bg-yellow-400 rounded-lg text-white px-2">2</span>
+                    </li>
+
+                    <li class="py-5">
+                        <i class="bi bi-calendar-day me-4 text-gray-400 text-lg">
+                        </i>
+                        <span>Calender</span>
+                    </li>
+                </ul>
+                <div class="flex-1">
+                </div>
+                <ul class="text-gray-500 mt-[8.5rem]  ">
+                    <li class="py-5"><i class="bi bi-gear me-4 text-gray-400 text-lg"></i><span>Setting</span></li>
+                    <li class="py-5"><i class="bi bi-box-arrow-left me-4 text-gray-400 text-lg"></i><span>LogOut</span>
+                    </li>
+                </ul>
+            </div>
+            <i id="btn_menu_close" class="bi bi-x-lg font-bold cursor-pointer absolute top-2 right-4 lg:relative"></i>
+        </section>
+
+        <div class=" hidden lg:block w-2/12 ">
+
+        </div>
+
+        <section class="bg-white w-12/12 lg:w-10/12  py-4 px-8">
+            <nav>
+                <div class="flex flex-wrap sm:flex-nowrap items-center gap-8 text-gray-500">
+                    <!-- <i class="bi bi-x-lg font-bold cursor-pointer  order-1"></i> -->
+                    <i id="btn_menu" class="bi bi-list cursor-pointer  lg:hidden  order-1"></i>
+
+                    <div class=" sm:order-2 mt-[-1.5rem] w-full sm:w-8/12  sm:mt-0 order-5 flex items-center">
+                        <i class="bi bi-search cursor-pointer"></i>
+
+                        <input class="placeholder:text-lg placeholder:ps-2 w-full py-2" type="text"
+                            placeholder="Search">
+                    </div>
+
+                    <div class="flex gap-2 order-3 ">
+                        <i class="bi bi-question-circle"></i>
+                        <i class="bi bi-bell text-black"></i>
+                    </div>
+
+                    <div class="flex gap-2 order-4">
+                        <span>matinmmp1381@gmail.com</span>
+                        <i class="bi bi-caret-down cursor-pointer"></i>
+                    </div>
+                </div>
+
+            </nav>
+
+            <header class="py-6">
+
+                <div class="flex justify-between">
+                    <h2 class="text-2xl font-semibold text-gray-700">Projects</h2>
+                    <div>
+                        <span>this week</span>
+                        <i class="bi bi-caret-down cursor-pointer"></i>
+                    </div>
+                </div>
+
+            </header>
+
+            <main class="py-4 ">
+                <div class="flex justify-center  flex-wrap 2xl:flex-nowrap gap-6 ">
+
+                    <section class="w-10/12 bg-gray-100 p-4  rounded-xl lg:w-[48%] 2xl:w-1/3 min-h-[90vh]">
+                        <div class="flex flex-col gap-4">
+                            <header class="">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xl text-gray-600">To do</span>
+                                    <span class="px-2 text-gray-700 bg-blue-200 rounded-md">2</span>
+                                </div>
+                            </header>
+                            <a href="#" class="text-center p-2 rounded-lg bg-blue-200 text-black">+</a>
+                            <div class="flex flex-col gap-4 ">
+                                <section class="bg-white p-4 rounded-lg">
+                                    <div class="flex flex-col gap-3">
+                                        <header>
+                                            <div class="flex justify-between ">
+                                                <span>.Design</span>
+                                                <i class="bi bi-paperclip"></i>
+                                            </div>
+                                        </header>
+                                        <div>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo
+                                                neque expedita sint nihil fugiat cum eaque nesciunt doloribus iure?</p>
+                                        </div>
+                                        <footer>
+                                            <div class="flex">
+                                                <span
+                                                    class="flex justify-center items-center w-10 h-10 text-center rounded-full bg-yellow-400 text-white">ms</span>
+                                                <span
+                                                    class="flex justify-center ms-[-.5rem] items-center w-10 h-10 rounded-full bg-purple-600 text-white">ps</span>
+                                            </div>
+                                        </footer>
+                                    </div>
+                                </section>
+                                <section class="bg-white p-4 rounded-lg">
+                                    <div class="flex flex-col gap-3">
+                                        <header>
+                                            <div class="flex justify-between ">
+                                                <span>.Design</span>
+                                                <i class="bi bi-paperclip"></i>
+                                            </div>
+                                        </header>
+                                        <div>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo
+                                            </p>
+                                        </div>
+                                        <footer>
+                                            <div class="flex">
+                                                <span
+                                                    class="flex justify-center items-center w-10 h-10 text-center rounded-full bg-yellow-400 text-white">ms</span>
+
+                                            </div>
+                                        </footer>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                    <section class="w-10/12 bg-gray-100 h-full p-4 px-4 rounded-xl  lg:w-[48%] 2xl:w-1/3 min-h-[90vh]">
+                        <div class="flex flex-col gap-4">
+                            <header class="">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xl text-gray-600">in progress</span>
+                                    <span class="px-2 text-gray-700 bg-blue-200 rounded-md">1</span>
+                                </div>
+                            </header>
+
+                            <a href="#" class="text-center p-2 rounded-lg bg-blue-200 text-black">+</a>
+
+                            <div class="flex flex-col gap-4 ">
+
+                                <section class="bg-white p-4 rounded-lg">
+                                    <div class="flex flex-col gap-3">
+                                        <header>
+                                            <div class="flex justify-between ">
+                                                <span>.Development</span>
+                                                <i class="bi bi-paperclip"></i>
+                                            </div>
+                                        </header>
+                                        <div>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo
+                                                neque expedita sint nihil fugiat cum eaque nesciunt doloribus iure?</p>
+                                        </div>
+                                        <footer>
+                                            <div class="flex">
+                                                <span
+                                                    class="flex justify-center items-center w-10 h-10 text-center rounded-full bg-yellow-400 text-white">ms</span>
+                                                <span
+                                                    class="flex justify-center ms-[-.5rem] items-center w-10 h-10 rounded-full bg-purple-600 text-white">ps</span>
+                                            </div>
+                                        </footer>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                    <section
+                        class="w-10/12 bg-gray-100 h-full p-4 rounded-xl lg:w-[48%] lg:mt-4 2xl:w-1/3 2xl:mt-0 min-h-[90vh]">
+                        <div class="flex flex-col gap-4">
+                            <header class="">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xl text-gray-600">.Completed</span>
+                                    <span class="px-2 text-gray-700 bg-blue-200 rounded-md">0</span>
+                                </div>
+                            </header>
+                            <a href="#" class="text-center p-2 rounded-lg bg-blue-200 text-black">+</a>
+
+                        </div>
+
+
+                    </section>
+                </div>
+            </main>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
